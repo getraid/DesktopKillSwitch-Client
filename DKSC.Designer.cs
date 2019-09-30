@@ -1,6 +1,6 @@
 ﻿namespace DesktopKillSwitch_Client
 {
-    partial class Service1
+    partial class DKSC
     {
         /// <summary> 
         /// Erforderliche Designervariable.
@@ -28,8 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            this.ServiceName = "Service1";
+            // 
+            // DKSC
+            // 
+            this.ServiceName = "DKSC";
+
         }
 
         #endregion
