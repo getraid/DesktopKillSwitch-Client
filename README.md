@@ -1,0 +1,1 @@
+DesktopKillSwitch-Client
