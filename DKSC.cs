@@ -20,6 +20,7 @@ namespace DesktopKillSwitch_Client
         public DKSC()
         {
             InitializeComponent();
+            CanShutdown = true;
         }
 
 
