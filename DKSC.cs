@@ -20,8 +20,8 @@ namespace DesktopKillSwitch_Client
         public DKSC()
         {
             InitializeComponent();
+            CanShutdown = true;
         }
-
 
         public string KillServer { get; set; } = "http://192.168.178.45:5123";
 
@@ -53,25 +53,15 @@ namespace DesktopKillSwitch_Client
             //{
             //    throw;
             //}
-          
         }
 
+        /// <summary>
+        /// Important: https://stackoverflow.com/a/53783761
+        /// </summary>
         protected override void OnShutdown()
         {
-            //Here insert code to connect to nodeserver and send signal.
-            //try
-            //{
-
-            //}
-            //catch (Exception)
-            //{
-            //    throw;
-            //}
             client.PostAsync(KillServer + "/shutdown", null).Wait();
-
             base.OnShutdown();
         }
-
-
     }
 }
