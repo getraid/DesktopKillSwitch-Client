@@ -45,29 +45,29 @@ namespace DesktopKillSwitch_Client
         protected override void OnStop()
         {
             //test
-            try
-            {
-                client.PostAsync(KillServer + "/shutdown", null).Wait();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            //try
+            //{
+            //    client.PostAsync(KillServer + "/shutdown", null).Wait();
+            //}
+            //catch (Exception)
+            //{
+            //    throw;
+            //}
           
         }
 
         protected override void OnShutdown()
         {
             //Here insert code to connect to nodeserver and send signal.
-            try
-            {
-                client.PostAsync(KillServer + "/shutdown", null).Wait();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-       
+            //try
+            //{
+
+            //}
+            //catch (Exception)
+            //{
+            //    throw;
+            //}
+            client.PostAsync(KillServer + "/shutdown", null).Wait();
 
             base.OnShutdown();
         }
