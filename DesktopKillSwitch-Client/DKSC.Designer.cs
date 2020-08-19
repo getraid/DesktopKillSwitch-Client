@@ -1,4 +1,6 @@
-﻿namespace DesktopKillSwitch_Client
+﻿using System.ServiceProcess;
+
+namespace DesktopKillSwitch_Client
 {
     partial class DKSC
     {
@@ -37,4 +39,5 @@
 
         #endregion
     }
+   
 }

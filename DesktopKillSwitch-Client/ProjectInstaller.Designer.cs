@@ -42,6 +42,8 @@
             this.dkscServiceInstaller.Description = "Sends a signal once windows gets shutdown";
             this.dkscServiceInstaller.DisplayName = "Desktop Kill Switch (Remote Node.js)";
             this.dkscServiceInstaller.ServiceName = "DKSC";
+            this.dkscServiceInstaller.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
+            
             // 
             // ProjectInstaller
             // 
