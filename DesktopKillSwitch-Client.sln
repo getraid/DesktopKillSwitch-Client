@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopKillSwitch-Client", "DesktopKillSwitch-Client.csproj", "{D0B36995-EE74-4668-BBC8-E628A735E335}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopKillSwitch-Client", "DesktopKillSwitch-Client\DesktopKillSwitch-Client.csproj", "{D0B36995-EE74-4668-BBC8-E628A735E335}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupTool", "..\SetupTool\SetupTool.vdproj", "{D253E7D3-A781-4756-B31F-265B0A08F74E}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupTool", "SetupTool\SetupTool.vdproj", "{D253E7D3-A781-4756-B31F-265B0A08F74E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
